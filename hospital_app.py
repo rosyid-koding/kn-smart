@@ -215,7 +215,7 @@ def show_result(dept_name: str, confidence: float, all_proba):
             f'<p>📍 {step}</p>' for step in info['steps']
         )
         st.markdown(f"""
-            <div style="background: #f0f9ff; border: 1.5px solid #7dd3fc;
+            <div style="background: #0b202e; border: 1.5px solid #7dd3fc;
                         border-radius: 16px; padding: 28px;">
                 <div style="font-size: 44px;">{info['icon']}</div>
                 <h2 style="color: {info['color']};">{dept_name}</h2>
